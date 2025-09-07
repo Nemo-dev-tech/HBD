@@ -67,7 +67,7 @@
         // เปิดเพลงเต็มเสียงเมื่อผู้ใช้แตะหน้าจอครั้งแรก
         document.body.addEventListener("click", function() {
             var yt = document.getElementById("yt-player");
-            yt.src = "https://www.youtube.com/embed/EjtxTX_VjxE?autoplay=1&loop=1&playlist=EjtxTX_VjxE&playsinline=1";
+            yt.src = "https://www.youtube.com/watch?v=EjtxTX_VjxEautoplay=1&loop=1&playlist=EjtxTX_VjxE&playsinline=1";
         }, {
             once: true
         });
